@@ -1,0 +1,200 @@
+{
+    "vehicles": [{
+                 "type": "car",
+                 "manufacturer": "Porsche",
+                 "model": "911 Carrera",
+                 "horsePower": 1500,
+                 "images": [
+                            "CONTENT/cars/Porsche/911-Carrera/1.jpg",
+                            "CONTENT/cars/Porsche/911-Carrera/2.jpg",
+                            "CONTENT/cars/Porsche/911-Carrera/3.jpg",
+                            "CONTENT/cars/Porsche/911-Carrera/4.jpg"
+                            ],
+                 
+                 "handDrive": "left",
+                 "seatsCount": 2,
+                 "doors": 2
+                 },{
+                 "type": "car",
+                 "manufacturer": "Porsche",
+                 "model": "Panamera",
+                 "horsePower": 500,
+                 "images": [
+                            "CONTENT/cars/Porsche/Panamera/1.jpg",
+                            "CONTENT/cars/Porsche/Panamera/2.jpg",
+                            "CONTENT/cars/Porsche/Panamera/3.jpg"
+                            ],
+                 
+                 "handDrive": "left",
+                 "seatsCount": 4,
+                 "doors": 4
+                 },{
+                 "type": "car",
+                 "manufacturer": "Nissan",
+                 "model": "GT-R",
+                 "horsePower": 700,
+                 "images": [
+                            "CONTENT/cars/Nissan/GT-R/1.jpg",
+                            "CONTENT/cars/Nissan/GT-R/2.jpg",
+                            "CONTENT/cars/Nissan/GT-R/3.jpg",
+                            "CONTENT/cars/Nissan/GT-R/4.jpg",
+                            ],
+                 
+                 "handDrive": "left",
+                 "seatsCount": 2,
+                 "doors": 2
+                 },{
+                 "type": "car",
+                 "manufacturer": "BMW",
+                 "model": "M3",
+                 "horsePower": 430,
+                 "images": [
+                            "CONTENT/cars/BMW/M3/1.jpg",
+                            "CONTENT/cars/BMW/M3/2.jpg"
+                            ],
+                 
+                 "handDrive": "right",
+                 "seatsCount": 4,
+                 "doors": 2
+                 },{
+                 "type": "car",
+                 "manufacturer": "Audi",
+                 "model": "S5",
+                 "horsePower": 328,
+                 "images": [
+                            "CONTENT/cars/Audi/S5/1.jpg",
+                            "CONTENT/cars/Audi/S5/2.jpg",
+                            "CONTENT/cars/Audi/S5/3.jpg",
+                            "CONTENT/cars/Audi/S5/4.jpg",
+                            "CONTENT/cars/Audi/S5/5.jpg"
+                            ],
+                 
+                 "handDrive": "left",
+                 "seatsCount": 4,
+                 "doors": 2
+                 },{
+                 "type": "car",
+                 "manufacturer": "Audi",
+                 "model": "TT Coupe",
+                 "horsePower": 180,
+                 "images": [
+                            "CONTENT/cars/Audi/TT-Coupe/1.jpg",
+                            "CONTENT/cars/Audi/TT-Coupe/2.jpg",
+                            "CONTENT/cars/Audi/TT-Coupe/3.jpg"
+                            ],
+                 
+                 "handDrive": "right",
+                 "seatsCount": 4,
+                 "doors": 2
+                 },{
+                 "type": "truck",
+                 "manufacturer":"Kenworth",
+                 "model":"W900",
+                 "horsePower": 625,
+                 "images": [
+                            "CONTENT/trucks/Kenworth/W900/1.jpg",
+                            "CONTENT/trucks/Kenworth/W900/2.jpg",
+                            "CONTENT/trucks/Kenworth/W900/3.jpg",
+                            "CONTENT/trucks/Kenworth/W900/4.jpg",
+                            "CONTENT/trucks/Kenworth/W900/5.jpg"
+                            ],
+                 
+                 "handDrive":"left",
+                 "seatsCount": 2,
+                 "carryingCapacityKg": 26300
+                 },{
+                 "type": "truck",
+                 "manufacturer":"Mack",
+                 "model":"Titan",
+                 "horsePower": 610,
+                 "images": [
+                            "CONTENT/trucks/Mack/Titan/1.jpg",
+                            "CONTENT/trucks/Mack/Titan/2.jpg",
+                            "CONTENT/trucks/Mack/Titan/3.jpg"
+                            ],
+                 
+                 "handDrive":"right",
+                 "seatsCount": 2,
+                 "carryingCapacityKg": 200000
+                 },{
+                 "type": "truck",
+                 "manufacturer":"МАЗ",
+                 "model":"651705",
+                 "horsePower": 330,
+                 "images": [
+                            "CONTENT/trucks/MAZ/6517/1.jpg",
+                            "CONTENT/trucks/MAZ/6517/2.jpg",
+                            "CONTENT/trucks/MAZ/6517/3.jpg",
+                            "CONTENT/trucks/MAZ/6517/4.jpg"
+                            ],
+                 
+                 "handDrive":"left",
+                 "seatsCount": 2,
+                 "carryingCapacityKg": 26000
+                 },{
+                 "type": "truck",
+                 "manufacturer":"Mercedes Benz",
+                 "model":"Actros",
+                 "horsePower": 460,
+                 "images": [
+                            "CONTENT/trucks/Mercedes-Benz/Actros/1.jpg",
+                            "CONTENT/trucks/Mercedes-Benz/Actros/2.jpg",
+                            "CONTENT/trucks/Mercedes-Benz/Actros/3.jpg",
+                            "CONTENT/trucks/Mercedes-Benz/Actros/4.jpg"
+                            ],
+                 
+                 "handDrive":"left",
+                 "seatsCount": 2,
+                 "carryingCapacityKg": 25000
+                 },{
+                 "type": "bike",
+                 "manufacturer": "Vespa",
+                 "model":"946",
+                 "horsePower": 12,
+                 "images": [
+                            "CONTENT/bikes/Vespa/946/1.jpg",
+                            "CONTENT/bikes/Vespa/946/2.jpg",
+                            "CONTENT/bikes/Vespa/946/3.jpg",
+                            "CONTENT/bikes/Vespa/946/4.jpg"
+                            ],
+                 
+                 "bikeType":"scooter"
+                 },{
+                 "type": "bike",
+                 "manufacturer": "Kawasaki",
+                 "model":"Ninja ZX-6R",
+                 "horsePower": 135,
+                 "images": [
+                            "CONTENT/bikes/Kawasaki/Ninja-ZX-6R/1.jpg",
+                            "CONTENT/bikes/Kawasaki/Ninja-ZX-6R/2.jpg"
+                            ],
+                 
+                 "bikeType":"sport"
+                 },{
+                 "type": "bike",
+                 "manufacturer": "Evil Twin",
+                 "model":"Venom Chopper",
+                 "horsePower": 90,
+                 "images": [
+                            "CONTENT/bikes/Evil-Twin/Venom-Chopper/1.jpg",
+                            "CONTENT/bikes/Evil-Twin/Venom-Chopper/2.jpg",
+                            "CONTENT/bikes/Evil-Twin/Venom-Chopper/3.jpg"
+                            ],
+                 
+                 "bikeType":"chopper"
+                 },{
+                 "type": "bike",
+                 "manufacturer": "Ducati",
+                 "model":"Monster 796",
+                 "horsePower": 87,
+                 "images": [
+                            "CONTENT/bikes/Ducati/Monster-796/1.jpg",
+                            "CONTENT/bikes/Ducati/Monster-796/2.jpg",
+                            "CONTENT/bikes/Ducati/Monster-796/3.jpg",
+                            "CONTENT/bikes/Ducati/Monster-796/4.jpg",
+                            "CONTENT/bikes/Ducati/Monster-796/5.jpg"
+                            ],
+                 
+                 "bikeType":"sport"
+                 }]
+}

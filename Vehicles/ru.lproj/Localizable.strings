@@ -1,0 +1,38 @@
+
+"FunctionIsNotImplemented" = "Функция не реализована";
+
+"FileNameIsWrong" = "Имя файла неправильно";
+"ResourceIsUnavailable" = "Ресурс недоступен";
+"Cancel" = "Отмена";
+"Close" = "Закрыть";
+"Vehicles" = "Машины";
+
+"Cars" = "Автомобили";
+"Trucks" = "Фуры";
+"Bikes" = "Мотоциклы";
+
+"New" = "Новый";
+
+"Images" = "Изображения";
+
+"Manufacturer" = "Изготовитель";
+"Model" = "Модель";
+"HorsePower" = "Число лошадей";
+"HandDrive" = "Руль";
+"SeatsCount" = "Число мест";
+"Doors" = "Двери";
+"CarryingCapacityKg" = "Грузоподъемность(кг)";
+"BikeType" = "Вид мотоцикла";
+
+
+
+"Car" = "Автомобиль";
+"Truck" = "Фура";
+"Bike" = "Мотоцикл";
+
+"Left" = "Левый";
+"Right" = "Правый";
+
+"Sport" = "Спорт";
+"Chopper" = "Чоппер";
+"Moped" = "Мопед";

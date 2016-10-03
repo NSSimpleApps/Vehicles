@@ -1,0 +1,37 @@
+
+"FunctionIsNotImplemented" = "Function is not implemented";
+
+"FileNameIsWrong" = "File name is wrong";
+"ResourceIsUnavailable" = "Resource unAvailable";
+"Cancel" = "Cancel";
+"Close" = "Close";
+"Vehicles" = "Vehicles";
+
+"Cars" = "Cars";
+"Trucks" = "Trucks";
+"Bikes" = "Bikes";
+
+"New" = "New";
+
+"Images" = "Images";
+
+
+"Manufacturer" = "Manufacturer";
+"Model" = "Model";
+"HorsePower" = "Horse power";
+"HandDrive" = "Hand drive";
+"SeatsCount" = "Seats count";
+"Doors" = "Doors";
+"CarryingCapacityKg" = "Carrying capacity(kg)";
+"BikeType" = "Bike type";
+
+"Car" = "Car";
+"Truck" = "Truck";
+"Bike" = "Bike";
+
+"Left" = "Left";
+"Right" = "Right";
+
+"Sport" = "Sport";
+"Chopper" = "Chopper";
+"Moped" = "Moped";
