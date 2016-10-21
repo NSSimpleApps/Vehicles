@@ -14,6 +14,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface VehicleViewModel : NSObject
 
+- (instancetype)init NS_UNAVAILABLE;
++ (instancetype)new NS_UNAVAILABLE;
+
 - (instancetype)initWithVehicle:(Vehicle *)vehicle NS_DESIGNATED_INITIALIZER;
 
 @property (assign) BOOL editing;

@@ -23,11 +23,6 @@
 
 @implementation VehicleViewModel
 
-- (instancetype)init {
-    
-    return [self initWithVehicle:nil];
-}
-    
 - (instancetype)initWithVehicle:(Vehicle *)vehicle {
     
     self = [super init];
