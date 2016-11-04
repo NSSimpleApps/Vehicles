@@ -130,6 +130,7 @@
                                                             forIndexPath:indexPath];
     cell.textLabel.text =
     self.containers[indexPath.section].vehicles[indexPath.row].model;
+    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     
     return cell;
 }
