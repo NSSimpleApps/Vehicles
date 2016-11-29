@@ -8,7 +8,7 @@
 
 #import "DetailViewController.h"
 #import "Vehicle.h"
-#import "LeadInfoCell.h"
+#import "PropertyInfoCell.h"
 #import "UITableView+RegisterCell.h"
 #import "LocalizeManager.h"
 #import "ImageListController.h"
@@ -27,7 +27,7 @@
     
     [super viewDidLoad];
     
-    [self.tableView registerCellWithClass:[LeadInfoCell class]];
+    [self.tableView registerCellWithClass:[PropertyInfoCell class]];
     
     self.vehicleViewModel = [[VehicleViewModel alloc] initWithVehicle:self.vehicle];
     
@@ -50,8 +50,8 @@
     
     PropertyInfo *info = self.vehicleViewModel.propertiesInfo[indexPath.row];
     
-    LeadInfoCell *cell =
-    [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([LeadInfoCell class])
+    PropertyInfoCell *cell =
+    [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([PropertyInfoCell class])
                                     forIndexPath:indexPath];
     cell.label.text = info.key;
     cell.rightView = info.view;

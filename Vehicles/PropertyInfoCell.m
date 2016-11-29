@@ -1,20 +1,20 @@
 //
-//  LeadInfoCell.m
+//  PropertyInfoCell.m
 //  Vehicles
 //
 //  Created by NSSimpleApps on 10.07.16.
 //  Copyright © 2016 NSSimpleApps. All rights reserved.
 //
 
-#import "LeadInfoCell.h"
+#import "PropertyInfoCell.h"
 
-@interface LeadInfoCell ()
+@interface PropertyInfoCell ()
 
 @property (strong, readwrite) UILabel *label;
 
 @end
 
-@implementation LeadInfoCell
+@implementation PropertyInfoCell
 
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
     

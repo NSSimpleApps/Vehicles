@@ -17,7 +17,7 @@
 		B5227AAB1D329905008EEF9A /* SimpleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5227AA91D329905008EEF9A /* SimpleCell.m */; };
 		B5227AAC1D329905008EEF9A /* SimpleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5227AAA1D329905008EEF9A /* SimpleCell.xib */; };
 		B5227AAF1D329A86008EEF9A /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5227AAE1D329A86008EEF9A /* DetailViewController.m */; };
-		B5227AB31D329B30008EEF9A /* LeadInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5227AB11D329B30008EEF9A /* LeadInfoCell.m */; };
+		B5227AB31D329B30008EEF9A /* PropertyInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5227AB11D329B30008EEF9A /* PropertyInfoCell.m */; };
 		B54E4D4A1D5CE1E1005A1997 /* VehicleViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B54E4D491D5CE1E1005A1997 /* VehicleViewModel.m */; };
 		B54E4D4D1D5CE4E0005A1997 /* PropertyInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B54E4D4C1D5CE4E0005A1997 /* PropertyInfo.m */; };
 		B551185E1D31E76100046A58 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B551185D1D31E76100046A58 /* main.m */; };
@@ -68,8 +68,8 @@
 		B5227AAA1D329905008EEF9A /* SimpleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleCell.xib; sourceTree = "<group>"; };
 		B5227AAD1D329A86008EEF9A /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		B5227AAE1D329A86008EEF9A /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		B5227AB01D329B30008EEF9A /* LeadInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeadInfoCell.h; sourceTree = "<group>"; };
-		B5227AB11D329B30008EEF9A /* LeadInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeadInfoCell.m; sourceTree = "<group>"; };
+		B5227AB01D329B30008EEF9A /* PropertyInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropertyInfoCell.h; sourceTree = "<group>"; };
+		B5227AB11D329B30008EEF9A /* PropertyInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropertyInfoCell.m; sourceTree = "<group>"; };
 		B54E4D481D5CE1E1005A1997 /* VehicleViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleViewModel.h; sourceTree = "<group>"; };
 		B54E4D491D5CE1E1005A1997 /* VehicleViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VehicleViewModel.m; sourceTree = "<group>"; };
 		B54E4D4B1D5CE4E0005A1997 /* PropertyInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropertyInfo.h; sourceTree = "<group>"; };
@@ -146,8 +146,8 @@
 				B5227AA81D329905008EEF9A /* SimpleCell.h */,
 				B5227AA91D329905008EEF9A /* SimpleCell.m */,
 				B5227AAA1D329905008EEF9A /* SimpleCell.xib */,
-				B5227AB01D329B30008EEF9A /* LeadInfoCell.h */,
-				B5227AB11D329B30008EEF9A /* LeadInfoCell.m */,
+				B5227AB01D329B30008EEF9A /* PropertyInfoCell.h */,
+				B5227AB11D329B30008EEF9A /* PropertyInfoCell.m */,
 				B5CA415A1D3544860070C963 /* ImageCell.h */,
 				B5CA415B1D3544860070C963 /* ImageCell.m */,
 				B5CA415C1D3544860070C963 /* ImageCell.xib */,
@@ -453,7 +453,7 @@
 				B5CA41531D352FD10070C963 /* LocalDataProvider.m in Sources */,
 				B5227A8D1D3215D3008EEF9A /* Car.m in Sources */,
 				B50626B01D5F704E00D156D3 /* NetDataProvider.m in Sources */,
-				B5227AB31D329B30008EEF9A /* LeadInfoCell.m in Sources */,
+				B5227AB31D329B30008EEF9A /* PropertyInfoCell.m in Sources */,
 				B5B1F6EE1DA285F400CEA5CF /* NSKMapper.m in Sources */,
 				B5CA415D1D3544860070C963 /* ImageCell.m in Sources */,
 				B5CA41561D3543A30070C963 /* ImageListController.m in Sources */,

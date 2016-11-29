@@ -1,5 +1,5 @@
 //
-//  LeadInfoCell.h
+//  PropertyInfoCell.h
 //  Vehicles
 //
 //  Created by NSSimpleApps on 10.07.16.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface LeadInfoCell : UITableViewCell
+@interface PropertyInfoCell : UITableViewCell
 
 @property (strong, readonly) UILabel *label;
 
