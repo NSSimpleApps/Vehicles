@@ -26,28 +26,20 @@
 
 - (void)loadImageWithPath:(NSString *)path
                completion:(void(^)(UIImage * _Nullable image))completion {
-    
     if ([path hasPrefix:@"file"]) {
-        
         NSURL *URL = [NSURL URLWithString:path];
         
         completion([UIImage imageWithContentsOfFile:URL.path]);
         
     } else if ([path hasPrefix:@"http"]) {
-        
         NSURL *URL = [NSURL URLWithString:path];
         
         SDWebImageManager *manager = [SDWebImageManager sharedManager];
-        [manager downloadImageWithURL:URL
-                              options:0
-                             progress:nil
-                            completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, BOOL finished, NSURL *imageURL) {
-                                
-                                if (finished) {
-                                    
-                                    completion(image);
-                                }
-                            }];
+        [manager loadImageWithURL:URL options:0 progress:nil completed:^(UIImage * _Nullable image, NSData * _Nullable data, NSError * _Nullable error, SDImageCacheType cacheType, BOOL finished, NSURL * _Nullable imageURL) {
+            if (finished) {
+                completion(image);
+            }
+        }];
     }
 }
 

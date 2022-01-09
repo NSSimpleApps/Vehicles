@@ -1,6 +1,6 @@
 # Uncomment this line to define a global platform for your project
 
-platform :ios, '9.3'
+platform :ios, '15.2'
 
 target 'Vehicles' do
 	
